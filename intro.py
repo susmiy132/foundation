@@ -25,3 +25,31 @@
 #classroom = (input("Enter your classroom"))
 #print(f"Hi! your college name is {college_name} and your classroom is {classroom} room no")
 
+
+age=int(input("Please provide your age:"))
+
+# conditional statement
+# if block only
+
+print("code started ......")
+if age>18:
+    print(f("you are play this game because you are above 18"))
+
+    print("code ended ......")
+
+# if-else block
+if age>18:
+    print(f("you xan play this game because you are above {age}"))
+else:      
+     print("you need to be above 18 years old to play this game")
+
+## proper use of if-elif-else block
+if age<0:
+    print("Please inter your valid age")
+elif 0<age<=10:
+    print("so your are kid, your movie ticket is Nrs.100")
+elif 10<age<20: 
+    print("your movie ticket is Nrs.20o")
+else:
+    print("your movie ticket is Nrs.300")
+
